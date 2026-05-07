@@ -1,0 +1,33 @@
+{
+  "name": "dien-may-tran-dien-backend",
+  "version": "1.0.0",
+  "description": "Backend for Điện Máy Trần Điền standard SaaS 2026 using Hono and Node.js",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.2",
+    "@hono/zod-validator": "^0.4.1",
+    "@neondatabase/serverless": "^0.9.3",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.10",
+    "hono": "^4.3.7",
+    "postgres": "^3.4.9",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "drizzle-kit": "^0.21.4",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}

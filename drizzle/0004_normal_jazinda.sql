@@ -1,0 +1,1 @@
+ALTER TABLE "products" ADD COLUMN "origin" text DEFAULT 'Đang cập nhật' NOT NULL;
