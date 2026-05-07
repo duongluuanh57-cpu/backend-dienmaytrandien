@@ -2,7 +2,8 @@
 
 Tài liệu này cung cấp chi tiết toàn bộ hệ thống API phục vụ kết nối cho cả dự án **Frontend Website** và dự án **Admin Dashboard**.
 
-- **Base URL**: `http://localhost:4000`
+- **Base URL (Trực tuyến)**: `https://backend-dienmaytrandien.onrender.com`
+- **Base URL (Local)**: `http://localhost:4000`
 - **Định dạng dữ liệu**: `JSON`
 - **CORS Whitelist**: `http://localhost:1000` (Dashboard), `http://localhost:3000` (Frontend), `http://localhost:5173` (Vite)
 
